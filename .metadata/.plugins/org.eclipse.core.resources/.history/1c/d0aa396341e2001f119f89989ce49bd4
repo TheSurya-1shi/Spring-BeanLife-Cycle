@@ -1,0 +1,18 @@
+package com.in.akshay.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.servlet.ModelAndView;
+
+@Controller
+public class SecondController {
+	
+	public ModelAndView getGreeting() {
+		ModelAndView mvc = new ModelAndView();
+		mvc.addObject("msg", "Good Morning !!");
+		mvc.setViewName("greet");
+		
+	}
+	
+	
+
+}

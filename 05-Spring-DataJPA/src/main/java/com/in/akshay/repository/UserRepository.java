@@ -1,0 +1,9 @@
+package com.in.akshay.repository;
+
+import org.springframework.data.repository.CrudRepository;
+
+public interface UserRepository extends CrudRepository<User, Integer>{
+	
+
+
+}

@@ -1,0 +1,21 @@
+package com.in.akshay.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.servlet.ModelAndView;
+
+@Controller
+public class FirstController {
+	
+	@GetMapping("/wel")
+	public ModelAndView welcomePage() {
+		
+		ModelAndView mvc = new ModelAndView();
+		mvc.addObject("msg", "Welcome to home Page");
+		mvc.setViewName("index");
+		 return mvc;
+	}
+	
+	
+
+}

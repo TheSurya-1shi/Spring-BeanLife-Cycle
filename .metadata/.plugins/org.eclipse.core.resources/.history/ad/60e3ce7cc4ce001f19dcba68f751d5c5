@@ -1,0 +1,8 @@
+package in.akshay.spring;
+
+public interface IPayment {
+	
+	public String pay();
+	
+
+}

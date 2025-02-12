@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;User.java&apos; to &apos;07-Spring-DataJPA_CustomQueries/src/main/java/com.in.akshay.repository&apos;&#x0D;&#x0A;- Original project: &apos;06-Spring-DataJPA_findByMethods&apos;&#x0D;&#x0A;- Destination element: &apos;07-Spring-DataJPA_CustomQueries/src/main/java/com.in.akshay.repository&apos;&#x0D;&#x0A;- Original element: &apos;com.in.akshay.repository.User.java&apos;" description="Copy compilation unit" destination="=07-Spring-DataJPA_CustomQueries/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.in.akshay.repository" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.in.akshay.repository{User.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1737116271152" units="1" version="1.0"/>
+</session>

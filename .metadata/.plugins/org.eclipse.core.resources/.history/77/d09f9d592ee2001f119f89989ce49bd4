@@ -1,0 +1,28 @@
+package com.in.akshay.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.servlet.ModelAndView;
+
+@Controller
+public class WelcomeController {
+	@GetMapping("/welcome")
+	public ModelAndView getWelcomeMsg() {
+		ModelAndView mav = new ModelAndView();
+		mav.addObject("msg", "Welcome to My Website !!");
+		mav.setViewName("index");
+		return mav;
+	}
+	
+	@GetMapping("/errorr")
+	public ModelAndView getErrorMsg() {
+		
+		ModelAndView mav = new ModelAndView();
+		mav.addObject("mssg", "Error while fetching the page that you have requested ..");
+		mav.setViewName("errorr");
+		
+		return mav;
+		
+	}
+
+}

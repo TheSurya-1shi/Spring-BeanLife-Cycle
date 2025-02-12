@@ -1,0 +1,8 @@
+<html>
+	<body>
+		<h1>${msg}</h1>
+		<a href="time">Get Time</a> </br>
+		<a href="greet">Get Greeting</a> </br>
+		<a href="menu">Get Menu</a> </br>
+	</body>
+</html>

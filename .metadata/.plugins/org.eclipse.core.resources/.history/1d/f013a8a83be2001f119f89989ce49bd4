@@ -1,0 +1,15 @@
+package com.in.akshay.controller;
+
+import org.springframework.web.servlet.ModelAndView;
+
+public class FirstController {
+	
+	public ModelAndView getWelcomeMsg() {
+		
+		ModelAndView mvc = new ModelAndView();
+		mvc.addObject("msg", "Welcome to Home Page !!");
+		mvc.setViewName("index");
+		return mvc;
+	}
+
+}
